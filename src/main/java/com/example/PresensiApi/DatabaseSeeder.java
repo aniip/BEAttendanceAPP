@@ -66,7 +66,7 @@ public class DatabaseSeeder implements CommandLineRunner {
                 p.setStatus(statusOpsi[random.nextInt(statusOpsi.length)]);
                 
                 // NIM Mahasiswa 
-                p.setNimMhs("0920240006");
+                p.setNimMhs("0920240023");
                 
                 // Ruangan diacak antara Lab Komputer 1, 2, atau 3
                 p.setRuangan("Lab Komputer " + (random.nextInt(3) + 1));
